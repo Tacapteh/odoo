@@ -1,5 +1,5 @@
-FROM odoo:17.0
+FROM odoo:18.0
 
-USER odoo
+USER postgres
 
 CMD ["odoo"]
